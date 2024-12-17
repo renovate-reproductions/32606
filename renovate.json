@@ -11,6 +11,6 @@
      "matchDatasources": ["npm"],
      "matchPackageNames": ["zone.js"],
      "matchUpdateTypes": ["minor", "major"],
-     "groupName": null
+     "groupSlug": "major-angular-monorepo"
   }]
 }
