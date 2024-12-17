@@ -2,15 +2,5 @@
    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
    "extends": [
       "config:recommended"
-   ],
-   "packageRules": [{
-     "matchDatasources": ["npm"],
-     "matchPackageNames": ["zone.js"],
-     "separateMinorPatch": true
-  }, {
-     "matchDatasources": ["npm"],
-     "matchPackageNames": ["zone.js"],
-     "matchUpdateTypes": ["minor", "major"],
-     "groupSlug": "major-angular-monorepo"
-  }]
+   ]
 }
