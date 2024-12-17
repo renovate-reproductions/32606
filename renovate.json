@@ -3,7 +3,6 @@
    "extends": [
       "config:recommended"
    ],
-   "prHourlyLimit": 0,
    "packageRules": [{
      "matchDatasources": ["npm"],
      "matchPackageNames": ["zone.js"],
@@ -12,6 +11,6 @@
      "matchDatasources": ["npm"],
      "matchPackageNames": ["zone.js"],
      "matchUpdateTypes": ["minor", "major"],
-     "groupName", null
+     "groupName": null
   }]
 }
