@@ -11,7 +11,7 @@
      "matchDatasources": ["npm"],
      "matchPackageNames": ["zone.js"],
      "matchUpdateTypes": ["minor", "major"],
-     "labels": "zone.js",
+     "labels": ["zone.js"],
      "groupName": null
   }]
 }
